@@ -17,3 +17,4 @@ scikit_learn==1.6.0
 spacy==3.8.2
 streamlit==1.40.2
 google-generativeai
+sqlite3
