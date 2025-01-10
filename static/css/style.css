@@ -1,0 +1,68 @@
+.sidebar_text{
+    text-decoration: none !important;
+    font-size: 15px;
+    font-weight: 600;
+    color: currentColor !important; 
+    font-family: "Source Sans Pro", sans-
+    /* line-height: 2; */
+}
+
+.cstm-div{
+    margin-top: 10px;
+    padding: 3px 0px 3px 5px;
+    cursor: pointer;
+    
+    /* border-bottom: 0.3px solid rgb(168 181 209); */
+}
+
+
+.cstm-div:hover{
+    /* background-color: rgb(240 239 239 / 43%); */
+    /* background-color: rgb(231, 138, 195); */
+    background-color: rgba(151, 166, 195, 0.15);
+    border-radius: 5px;
+    color: rgb(7, 7, 7);
+    padding: 3px 0px 3px 5px;
+}
+
+.cstm-div.active {
+    /* background-color: rgb(231, 138, 195);
+    border-radius: 5px;
+    color: white; */
+    background-color: rgba(151, 166, 195, 0.15);
+    border-radius: 5px;
+    color: rgb(7, 7, 7);
+}
+
+/* [data-testid="stSidebar"][aria-expanded="true"]{
+    min-width: 450px;
+    max-width: 450px;
+} */
+
+/* Stop button */
+.st-emotion-cache-14x9thb{
+    display: none !important;
+}
+
+/* cross icon button */
+.stFileUploaderFile button svg{
+    display: none !important;
+}
+
+.custom-button {
+    background-color: rgba(151, 166, 195, 0.25); 
+    color: inherit !important;            
+    border: 1px solid rgba(250, 250, 250, 0.2); 
+    border-radius: 5px;       
+    padding: 6px 10px;      
+    font-size: 16px;          
+    cursor: pointer;         
+    text-align: center;      
+    display: inline-block;    
+    text-decoration: none !important;    
+    transition: background-color 0.3s ease, color 0.3s ease; 
+}
+.custom-button:hover {
+    border-color: rgb(255, 75, 75);
+    color: rgb(255, 75, 75) !important;            
+}
