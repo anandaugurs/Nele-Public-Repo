@@ -1,5 +1,5 @@
 from recommendation_engine.insurance_feature_extractor import extract_features
-from services.chromadb_service import save_document_to_chroma
+# from services.chromadb_service import save_document_to_chroma
 from services.geminiai_service import GeminiAIService
 from core.intent_classifier import identify_insurance_policy_type
 from datetime import datetime
