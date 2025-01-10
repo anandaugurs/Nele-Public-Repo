@@ -93,7 +93,7 @@ def process_uploaded_file(uploaded_file):
         document_id =  454545454 # save_document_to_chroma(file_content, metadatas, embeddings)
 
         if document_id:
-            print(f"File '{uploaded_file.name}' has been successfully processed!")
+            st.success(f"File '{uploaded_file.name}' has been successfully processed!")
             return file_content
         else:
             st.error("❌ Failed to save document to memory.")
